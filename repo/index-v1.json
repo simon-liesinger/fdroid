@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1785449760000,
+    "timestamp": 1785452448000,
     "version": 20002,
     "name": "Simon's Apps",
     "icon": "icon.png",
@@ -25,7 +25,12 @@
       "webSite": "https://github.com/simon-liesinger/app-hub",
       "added": 1785449705000,
       "packageName": "com.example.adaptivetimers",
-      "lastUpdated": 1785449705000
+      "lastUpdated": 1785449705000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_FmiQ0JZgiT46CktIrWUDTBm2gsz0-0MAFOxfHcz6tNU=.png"
+        }
+      }
     },
     {
       "authorName": "Simon Liesinger",
@@ -40,22 +45,12 @@
       "webSite": "https://github.com/simon-liesinger/app-hub",
       "added": 1785449705000,
       "packageName": "com.adsbegone.app",
-      "lastUpdated": 1785449705000
-    },
-    {
-      "authorName": "Simon Liesinger",
-      "categories": [
-        "System"
-      ],
-      "suggestedVersionCode": "1",
-      "description": "Shows which of Simon's apps have updates and opens the download.",
-      "license": "Unlicense",
-      "name": "App Hub",
-      "summary": "Shows which of Simon's apps have updates and opens the download.",
-      "webSite": "https://github.com/simon-liesinger/app-hub",
-      "added": 1785449705000,
-      "packageName": "com.simonapps.hub",
-      "lastUpdated": 1785449705000
+      "lastUpdated": 1785449705000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_Dnw4tVJYKYQlmxc3zHvAms0NfEcDEpyHwawk8xFDzD4=.png"
+        }
+      }
     },
     {
       "authorName": "Simon Liesinger",
@@ -70,7 +65,12 @@
       "webSite": "https://github.com/simon-liesinger/app-hub",
       "added": 1785449705000,
       "packageName": "com.simon.classtimer",
-      "lastUpdated": 1785449705000
+      "lastUpdated": 1785449705000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_TYB7UXBiHvQEkTqh6aS7Yo_y7zjcvuZwnBP80d3nplo=.png"
+        }
+      }
     },
     {
       "authorName": "Simon Liesinger",
@@ -85,7 +85,12 @@
       "webSite": "https://github.com/simon-liesinger/app-hub",
       "added": 1785449706000,
       "packageName": "com.simon.dailynews",
-      "lastUpdated": 1785449706000
+      "lastUpdated": 1785449706000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_7SwwsIJ6gWFfmwD6lE_degWk4txmMH8vd6raZaUJ5QY=.png"
+        }
+      }
     },
     {
       "authorName": "Simon Liesinger",
@@ -100,7 +105,12 @@
       "webSite": "https://github.com/simon-liesinger/app-hub",
       "added": 1785449706000,
       "packageName": "com.botc.grimoire.experimental.dev",
-      "lastUpdated": 1785449706000
+      "lastUpdated": 1785449706000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_Z0SbUv9oGyNbb7PVWfb2I7PXcgls3P3YhaHxMZuXL-Q=.png"
+        }
+      }
     },
     {
       "authorName": "Simon Liesinger",
@@ -115,7 +125,12 @@
       "webSite": "https://github.com/simon-liesinger/app-hub",
       "added": 1785449706000,
       "packageName": "com.musicdownloader.app",
-      "lastUpdated": 1785449706000
+      "lastUpdated": 1785449706000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_IdS5yke6GG7Vpn8vkF1tSZFTi9A07InC7BEI959QBjg=.png"
+        }
+      }
     },
     {
       "authorName": "Simon Liesinger",
@@ -130,7 +145,12 @@
       "webSite": "https://github.com/simon-liesinger/app-hub",
       "added": 1785449706000,
       "packageName": "com.example.todoapp",
-      "lastUpdated": 1785449706000
+      "lastUpdated": 1785449706000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_YSahVBw6_zvYLnByYJLJ7ua8j8hcJ8qEUmbJOoK3gP4=.png"
+        }
+      }
     }
   ],
   "packages": {
@@ -368,32 +388,6 @@
         ],
         "versionCode": 3,
         "versionName": "1.2"
-      }
-    ],
-    "com.simonapps.hub": [
-      {
-        "added": 1785449705000,
-        "apkName": "app-hub.apk",
-        "hash": "8bf723386a085b2c725803b01b22a491d0819c51d39bf8ae0d557636358ecbaf",
-        "hashType": "sha256",
-        "minSdkVersion": 24,
-        "packageName": "com.simonapps.hub",
-        "sig": "57b4eb941c4d001bb72353eb13cacfc5",
-        "signer": "210d5b34217dd940f449246d803eea67caff1053497db989962b83a9ce14e514",
-        "size": 1515396,
-        "targetSdkVersion": 34,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "com.simonapps.hub.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 1,
-        "versionName": "2.0"
       }
     ]
   }

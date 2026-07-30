@@ -14,7 +14,7 @@
       }
     },
     "address": "https://simon-liesinger.github.io/fdroid/repo",
-    "timestamp": 1785449760000,
+    "timestamp": 1785452448000,
     "categories": {
       "Games": {
         "name": {
@@ -62,6 +62,13 @@
         },
         "description": {
           "en-US": "On-device APK ad-patcher; installs a renamed, ad-free copy alongside the original."
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.adsbegone.app/en-US/icon_Dnw4tVJYKYQlmxc3zHvAms0NfEcDEpyHwawk8xFDzD4=.png",
+            "sha256": "0e7c38b552582984259b1737cc7bc09acd0d7c4703129c87c1ac24f31143cc3e",
+            "size": 34442
+          }
         },
         "preferredSigner": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
       },
@@ -118,6 +125,13 @@
         },
         "description": {
           "en-US": "Blood on the Clocktower storyteller grimoire (experimental branch)."
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.botc.grimoire.experimental.dev/en-US/icon_Z0SbUv9oGyNbb7PVWfb2I7PXcgls3P3YhaHxMZuXL-Q=.png",
+            "sha256": "67449b52ff681b235b6fb3d559f6f623b3d772096cdcfdd885a1f1319b972fe4",
+            "size": 10698
+          }
         },
         "preferredSigner": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
       },
@@ -178,6 +192,13 @@
         "description": {
           "en-US": "Focus timer that ratchets session timing based on how you actually work."
         },
+        "icon": {
+          "en-US": {
+            "name": "/com.example.adaptivetimers/en-US/icon_FmiQ0JZgiT46CktIrWUDTBm2gsz0-0MAFOxfHcz6tNU=.png",
+            "sha256": "166890d09660893e3a0a4b48ad65034c19b682ccf4fb430014ec5f1dccfab4d5",
+            "size": 61765
+          }
+        },
         "preferredSigner": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
       },
       "versions": {
@@ -223,6 +244,13 @@
         "description": {
           "en-US": "Simple to-do / task list."
         },
+        "icon": {
+          "en-US": {
+            "name": "/com.example.todoapp/en-US/icon_YSahVBw6_zvYLnByYJLJ7ua8j8hcJ8qEUmbJOoK3gP4=.png",
+            "sha256": "6126a1541c3aff3bd82e70726092c9eee6bc8fc85c27ca845266c93a82b780fe",
+            "size": 22102
+          }
+        },
         "preferredSigner": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
       },
       "versions": {
@@ -267,6 +295,13 @@
         },
         "description": {
           "en-US": "Imports Spotify playlists, fetches audio, and plays them locally."
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.musicdownloader.app/en-US/icon_IdS5yke6GG7Vpn8vkF1tSZFTi9A07InC7BEI959QBjg=.png",
+            "sha256": "21d4b9ca47ba186ed5a67f2f905d6d4991538bd034ec89c2ec1108f79f500638",
+            "size": 43713
+          }
         },
         "preferredSigner": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
       },
@@ -342,6 +377,13 @@
         "description": {
           "en-US": "Class schedule reminders with home-screen widgets; notifies before each class even when closed."
         },
+        "icon": {
+          "en-US": {
+            "name": "/com.simon.classtimer/en-US/icon_TYB7UXBiHvQEkTqh6aS7Yo_y7zjcvuZwnBP80d3nplo=.png",
+            "sha256": "4d807b5170621ef404913aa1e9a4bb628ff2ef38dcbee6709c13fcd1dde7a65a",
+            "size": 46142
+          }
+        },
         "preferredSigner": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
       },
       "versions": {
@@ -407,6 +449,13 @@
         "description": {
           "en-US": "User-defined website-change checks with an in-app visual element picker; surfaces items only when they hit their condition today."
         },
+        "icon": {
+          "en-US": {
+            "name": "/com.simon.dailynews/en-US/icon_7SwwsIJ6gWFfmwD6lE_degWk4txmMH8vd6raZaUJ5QY=.png",
+            "sha256": "ed2c30b0827a81615f9b00fa944fdd7a05a4e2dc66307f2f77aada65a509e506",
+            "size": 8523
+          }
+        },
         "preferredSigner": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
       },
       "versions": {
@@ -450,59 +499,6 @@
               },
               {
                 "name": "com.simon.dailynews.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "com.simonapps.hub": {
-      "metadata": {
-        "added": 1785449705000,
-        "categories": [
-          "System"
-        ],
-        "lastUpdated": 1785449705000,
-        "license": "Unlicense",
-        "webSite": "https://github.com/simon-liesinger/app-hub",
-        "authorName": "Simon Liesinger",
-        "name": {
-          "en-US": "App Hub"
-        },
-        "summary": {
-          "en-US": "Shows which of Simon's apps have updates and opens the download."
-        },
-        "description": {
-          "en-US": "Shows which of Simon's apps have updates and opens the download."
-        },
-        "preferredSigner": "210d5b34217dd940f449246d803eea67caff1053497db989962b83a9ce14e514"
-      },
-      "versions": {
-        "8bf723386a085b2c725803b01b22a491d0819c51d39bf8ae0d557636358ecbaf": {
-          "added": 1785449705000,
-          "file": {
-            "name": "/app-hub.apk",
-            "sha256": "8bf723386a085b2c725803b01b22a491d0819c51d39bf8ae0d557636358ecbaf",
-            "size": 1515396
-          },
-          "manifest": {
-            "versionName": "2.0",
-            "versionCode": 1,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "210d5b34217dd940f449246d803eea67caff1053497db989962b83a9ce14e514"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "com.simonapps.hub.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }

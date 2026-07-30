@@ -4,10 +4,11 @@
   "archivePolicy0": [],
   "commandLine": [
     "/opt/homebrew/bin/fdroid update",
+    "--create-metadata",
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1785449762393,
+  "endTimestamp": 1785452450421,
   "failedBuilds": {},
   "jarsigner": "/usr/bin/jarsigner",
   "keytool": "/usr/bin/keytool",
@@ -18,8 +19,7 @@
     "com.example.todoapp",
     "com.musicdownloader.app",
     "com.simon.classtimer",
-    "com.simon.dailynews",
-    "com.simonapps.hub"
+    "com.simon.dailynews"
   ],
   "noPackages": [
     "com.adsbegone.app",
@@ -28,8 +28,7 @@
     "com.example.todoapp",
     "com.musicdownloader.app",
     "com.simon.classtimer",
-    "com.simon.dailynews",
-    "com.simonapps.hub"
+    "com.simon.dailynews"
   ],
   "noUpdateCheck": [
     "com.adsbegone.app",
@@ -38,18 +37,17 @@
     "com.example.todoapp",
     "com.musicdownloader.app",
     "com.simon.classtimer",
-    "com.simon.dailynews",
-    "com.simonapps.hub"
+    "com.simon.dailynews"
   ],
   "stages": {
-    "delete_disabled_builds": 1785449760454,
-    "index.make repo": 1785449760455,
-    "prepare_apps repo": 1785449760455,
-    "process_apks": 1785449760454,
-    "read_added_date_from_all_apks": 1785449760455,
-    "remove_apks": 1785449760455,
-    "scan_repo_files": 1785449760455
+    "delete_disabled_builds": 1785452448261,
+    "index.make repo": 1785452448484,
+    "prepare_apps repo": 1785452448262,
+    "process_apks": 1785452448262,
+    "read_added_date_from_all_apks": 1785452448262,
+    "remove_apks": 1785452448262,
+    "scan_repo_files": 1785452448262
   },
-  "startTimestamp": 1785413760000,
+  "startTimestamp": 1785416448000,
   "subcommand": "update"
 }
