@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1785452448000
+    "timestamp": 1785453016000
   },
   "packages": {
     "com.simonapps.hub": null,
@@ -55,6 +55,56 @@
             "name": "/com.musicdownloader.app/en-US/icon_IdS5yke6GG7Vpn8vkF1tSZFTi9A07InC7BEI959QBjg=.png",
             "sha256": "21d4b9ca47ba186ed5a67f2f905d6d4991538bd034ec89c2ec1108f79f500638",
             "size": 43713
+          }
+        }
+      },
+      "versions": {
+        "9a42930c8ed202722c4d27cd3c29415f0bbbe38df28db44a46a54de4925c7d4f": null,
+        "f149b13a4eee00bf9bf64945c1e73fb5c63fd7822d59b7d65390c9a17ede5856": {
+          "added": 1785449706000,
+          "file": {
+            "name": "/music-player.apk",
+            "sha256": "f149b13a4eee00bf9bf64945c1e73fb5c63fd7822d59b7d65390c9a17ede5856",
+            "size": 19542054
+          },
+          "manifest": {
+            "versionName": "1.0.10",
+            "versionCode": 10,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.musicdownloader.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
           }
         }
       }
