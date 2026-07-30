@@ -1,0 +1,513 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "Simon's Apps"
+    },
+    "description": {
+      "en-US": "Homemade Android apps by Simon — installs and auto-updates through F-Droid, no Play Store needed."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "ceedf2a14c6dde3701064c7a11c192b56aa1a4e5132a17a3fa6d7977bb7bcbc1",
+        "size": 819
+      }
+    },
+    "address": "https://simon-liesinger.github.io/fdroid/repo",
+    "timestamp": 1785449760000,
+    "categories": {
+      "Games": {
+        "name": {
+          "en-US": "Games"
+        }
+      },
+      "Internet": {
+        "name": {
+          "en-US": "Internet"
+        }
+      },
+      "Multimedia": {
+        "name": {
+          "en-US": "Multimedia"
+        }
+      },
+      "System": {
+        "name": {
+          "en-US": "System"
+        }
+      },
+      "Time": {
+        "name": {
+          "en-US": "Time"
+        }
+      }
+    }
+  },
+  "packages": {
+    "com.adsbegone.app": {
+      "metadata": {
+        "added": 1785449705000,
+        "categories": [
+          "System"
+        ],
+        "lastUpdated": 1785449705000,
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "name": {
+          "en-US": "Ads Begone"
+        },
+        "summary": {
+          "en-US": "On-device APK ad-patcher; installs a renamed, ad-free copy alongside the or…"
+        },
+        "description": {
+          "en-US": "On-device APK ad-patcher; installs a renamed, ad-free copy alongside the original."
+        },
+        "preferredSigner": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
+      },
+      "versions": {
+        "822f30caaa86876a939bccc63292559cb58a78410931eea26af5d4f44084d2ec": {
+          "added": 1785449705000,
+          "file": {
+            "name": "/ads-begone.apk",
+            "sha256": "822f30caaa86876a939bccc63292559cb58a78410931eea26af5d4f44084d2ec",
+            "size": 3966744
+          },
+          "manifest": {
+            "versionName": "1.1",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.adsbegone.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.botc.grimoire.experimental.dev": {
+      "metadata": {
+        "added": 1785449706000,
+        "categories": [
+          "Games"
+        ],
+        "lastUpdated": 1785449706000,
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "name": {
+          "en-US": "Grimoire"
+        },
+        "summary": {
+          "en-US": "Blood on the Clocktower storyteller grimoire (experimental branch)."
+        },
+        "description": {
+          "en-US": "Blood on the Clocktower storyteller grimoire (experimental branch)."
+        },
+        "preferredSigner": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
+      },
+      "versions": {
+        "472f0f63d1fe5a0222aafe22f8bd976e6cac54ddd4fd964bf85f465dd6742a8e": {
+          "added": 1785449706000,
+          "file": {
+            "name": "/grimoire.apk",
+            "sha256": "472f0f63d1fe5a0222aafe22f8bd976e6cac54ddd4fd964bf85f465dd6742a8e",
+            "size": 46467242
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.1-dev",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.botc.grimoire.experimental.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.example.adaptivetimers": {
+      "metadata": {
+        "added": 1785449705000,
+        "categories": [
+          "Time"
+        ],
+        "lastUpdated": 1785449705000,
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "name": {
+          "en-US": "Adaptive Timers"
+        },
+        "summary": {
+          "en-US": "Focus timer that ratchets session timing based on how you actually work."
+        },
+        "description": {
+          "en-US": "Focus timer that ratchets session timing based on how you actually work."
+        },
+        "preferredSigner": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
+      },
+      "versions": {
+        "827e0e1a85d96203a5486e0e40d12092c361d89a2c5894e2ea099e926f2c3af1": {
+          "added": 1785449705000,
+          "file": {
+            "name": "/adaptive-timers.apk",
+            "sha256": "827e0e1a85d96203a5486e0e40d12092c361d89a2c5894e2ea099e926f2c3af1",
+            "size": 16269
+          },
+          "manifest": {
+            "versionName": "1.1",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "com.example.todoapp": {
+      "metadata": {
+        "added": 1785449706000,
+        "categories": [
+          "Time"
+        ],
+        "lastUpdated": 1785449706000,
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "name": {
+          "en-US": "Tasks"
+        },
+        "summary": {
+          "en-US": "Simple to-do / task list."
+        },
+        "description": {
+          "en-US": "Simple to-do / task list."
+        },
+        "preferredSigner": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
+      },
+      "versions": {
+        "7a56f72bc5d50351ea4f00603ec20e8897c45fc49bd481dc82500fb983e6f477": {
+          "added": 1785449706000,
+          "file": {
+            "name": "/tasks.apk",
+            "sha256": "7a56f72bc5d50351ea4f00603ec20e8897c45fc49bd481dc82500fb983e6f477",
+            "size": 20477
+          },
+          "manifest": {
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "com.musicdownloader.app": {
+      "metadata": {
+        "added": 1785449706000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1785449706000,
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "name": {
+          "en-US": "Music Player"
+        },
+        "summary": {
+          "en-US": "Imports Spotify playlists, fetches audio, and plays them locally."
+        },
+        "description": {
+          "en-US": "Imports Spotify playlists, fetches audio, and plays them locally."
+        },
+        "preferredSigner": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
+      },
+      "versions": {
+        "9a42930c8ed202722c4d27cd3c29415f0bbbe38df28db44a46a54de4925c7d4f": {
+          "added": 1785449706000,
+          "file": {
+            "name": "/music-player.apk",
+            "sha256": "9a42930c8ed202722c4d27cd3c29415f0bbbe38df28db44a46a54de4925c7d4f",
+            "size": 19572065
+          },
+          "manifest": {
+            "versionName": "1.0.9",
+            "versionCode": 9,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.musicdownloader.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.simon.classtimer": {
+      "metadata": {
+        "added": 1785449705000,
+        "categories": [
+          "Time"
+        ],
+        "lastUpdated": 1785449705000,
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "name": {
+          "en-US": "Class Timer"
+        },
+        "summary": {
+          "en-US": "Class schedule reminders with home-screen widgets; notifies before each cla…"
+        },
+        "description": {
+          "en-US": "Class schedule reminders with home-screen widgets; notifies before each class even when closed."
+        },
+        "preferredSigner": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
+      },
+      "versions": {
+        "5786fce7c47a2f0b38c7cc25f5af18180bcb11d93485e54e71c977050a586184": {
+          "added": 1785449705000,
+          "file": {
+            "name": "/class-timer.apk",
+            "sha256": "5786fce7c47a2f0b38c7cc25f5af18180bcb11d93485e54e71c977050a586184",
+            "size": 1469329
+          },
+          "manifest": {
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.USE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "com.simon.classtimer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.simon.dailynews": {
+      "metadata": {
+        "added": 1785449706000,
+        "categories": [
+          "Internet"
+        ],
+        "lastUpdated": 1785449706000,
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "name": {
+          "en-US": "Daily News"
+        },
+        "summary": {
+          "en-US": "User-defined website-change checks with an in-app visual element picker; su…"
+        },
+        "description": {
+          "en-US": "User-defined website-change checks with an in-app visual element picker; surfaces items only when they hit their condition today."
+        },
+        "preferredSigner": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
+      },
+      "versions": {
+        "3cd675f123b9faa81094f6872fdfb9a86f6faeef145479fb145e4ad6e0c68440": {
+          "added": 1785449706000,
+          "file": {
+            "name": "/daily-news.apk",
+            "sha256": "3cd675f123b9faa81094f6872fdfb9a86f6faeef145479fb145e4ad6e0c68440",
+            "size": 16363783
+          },
+          "manifest": {
+            "versionName": "1.2",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.simon.dailynews.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.simonapps.hub": {
+      "metadata": {
+        "added": 1785449705000,
+        "categories": [
+          "System"
+        ],
+        "lastUpdated": 1785449705000,
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "name": {
+          "en-US": "App Hub"
+        },
+        "summary": {
+          "en-US": "Shows which of Simon's apps have updates and opens the download."
+        },
+        "description": {
+          "en-US": "Shows which of Simon's apps have updates and opens the download."
+        },
+        "preferredSigner": "210d5b34217dd940f449246d803eea67caff1053497db989962b83a9ce14e514"
+      },
+      "versions": {
+        "8bf723386a085b2c725803b01b22a491d0819c51d39bf8ae0d557636358ecbaf": {
+          "added": 1785449705000,
+          "file": {
+            "name": "/app-hub.apk",
+            "sha256": "8bf723386a085b2c725803b01b22a491d0819c51d39bf8ae0d557636358ecbaf",
+            "size": 1515396
+          },
+          "manifest": {
+            "versionName": "2.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "210d5b34217dd940f449246d803eea67caff1053497db989962b83a9ce14e514"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.simonapps.hub.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

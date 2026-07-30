@@ -1,0 +1,400 @@
+{
+  "repo": {
+    "timestamp": 1785449760000,
+    "version": 20002,
+    "name": "Simon's Apps",
+    "icon": "icon.png",
+    "address": "https://simon-liesinger.github.io/fdroid/repo",
+    "description": "Homemade Android apps by Simon \u2014 installs and auto-updates through F-Droid, no Play Store needed."
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "authorName": "Simon Liesinger",
+      "categories": [
+        "Time"
+      ],
+      "suggestedVersionCode": "2",
+      "description": "Focus timer that ratchets session timing based on how you actually work.",
+      "license": "Unlicense",
+      "name": "Adaptive Timers",
+      "summary": "Focus timer that ratchets session timing based on how you actually work.",
+      "webSite": "https://github.com/simon-liesinger/app-hub",
+      "added": 1785449705000,
+      "packageName": "com.example.adaptivetimers",
+      "lastUpdated": 1785449705000
+    },
+    {
+      "authorName": "Simon Liesinger",
+      "categories": [
+        "System"
+      ],
+      "suggestedVersionCode": "2",
+      "description": "On-device APK ad-patcher; installs a renamed, ad-free copy alongside the original.",
+      "license": "Unlicense",
+      "name": "Ads Begone",
+      "summary": "On-device APK ad-patcher; installs a renamed, ad-free copy alongside the or\u2026",
+      "webSite": "https://github.com/simon-liesinger/app-hub",
+      "added": 1785449705000,
+      "packageName": "com.adsbegone.app",
+      "lastUpdated": 1785449705000
+    },
+    {
+      "authorName": "Simon Liesinger",
+      "categories": [
+        "System"
+      ],
+      "suggestedVersionCode": "1",
+      "description": "Shows which of Simon's apps have updates and opens the download.",
+      "license": "Unlicense",
+      "name": "App Hub",
+      "summary": "Shows which of Simon's apps have updates and opens the download.",
+      "webSite": "https://github.com/simon-liesinger/app-hub",
+      "added": 1785449705000,
+      "packageName": "com.simonapps.hub",
+      "lastUpdated": 1785449705000
+    },
+    {
+      "authorName": "Simon Liesinger",
+      "categories": [
+        "Time"
+      ],
+      "suggestedVersionCode": "1",
+      "description": "Class schedule reminders with home-screen widgets; notifies before each class even when closed.",
+      "license": "Unlicense",
+      "name": "Class Timer",
+      "summary": "Class schedule reminders with home-screen widgets; notifies before each cla\u2026",
+      "webSite": "https://github.com/simon-liesinger/app-hub",
+      "added": 1785449705000,
+      "packageName": "com.simon.classtimer",
+      "lastUpdated": 1785449705000
+    },
+    {
+      "authorName": "Simon Liesinger",
+      "categories": [
+        "Internet"
+      ],
+      "suggestedVersionCode": "3",
+      "description": "User-defined website-change checks with an in-app visual element picker; surfaces items only when they hit their condition today.",
+      "license": "Unlicense",
+      "name": "Daily News",
+      "summary": "User-defined website-change checks with an in-app visual element picker; su\u2026",
+      "webSite": "https://github.com/simon-liesinger/app-hub",
+      "added": 1785449706000,
+      "packageName": "com.simon.dailynews",
+      "lastUpdated": 1785449706000
+    },
+    {
+      "authorName": "Simon Liesinger",
+      "categories": [
+        "Games"
+      ],
+      "suggestedVersionCode": "2",
+      "description": "Blood on the Clocktower storyteller grimoire (experimental branch).",
+      "license": "Unlicense",
+      "name": "Grimoire",
+      "summary": "Blood on the Clocktower storyteller grimoire (experimental branch).",
+      "webSite": "https://github.com/simon-liesinger/app-hub",
+      "added": 1785449706000,
+      "packageName": "com.botc.grimoire.experimental.dev",
+      "lastUpdated": 1785449706000
+    },
+    {
+      "authorName": "Simon Liesinger",
+      "categories": [
+        "Multimedia"
+      ],
+      "suggestedVersionCode": "9",
+      "description": "Imports Spotify playlists, fetches audio, and plays them locally.",
+      "license": "Unlicense",
+      "name": "Music Player",
+      "summary": "Imports Spotify playlists, fetches audio, and plays them locally.",
+      "webSite": "https://github.com/simon-liesinger/app-hub",
+      "added": 1785449706000,
+      "packageName": "com.musicdownloader.app",
+      "lastUpdated": 1785449706000
+    },
+    {
+      "authorName": "Simon Liesinger",
+      "categories": [
+        "Time"
+      ],
+      "suggestedVersionCode": "1",
+      "description": "Simple to-do / task list.",
+      "license": "Unlicense",
+      "name": "Tasks",
+      "summary": "Simple to-do / task list.",
+      "webSite": "https://github.com/simon-liesinger/app-hub",
+      "added": 1785449706000,
+      "packageName": "com.example.todoapp",
+      "lastUpdated": 1785449706000
+    }
+  ],
+  "packages": {
+    "com.adsbegone.app": [
+      {
+        "added": 1785449705000,
+        "apkName": "ads-begone.apk",
+        "hash": "822f30caaa86876a939bccc63292559cb58a78410931eea26af5d4f44084d2ec",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "com.adsbegone.app",
+        "sig": "1dba7e8242a63c3a26ad49c09a4dd393",
+        "signer": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72",
+        "size": 3966744,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "com.adsbegone.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2,
+        "versionName": "1.1"
+      }
+    ],
+    "com.botc.grimoire.experimental.dev": [
+      {
+        "added": 1785449706000,
+        "apkName": "grimoire.apk",
+        "hash": "472f0f63d1fe5a0222aafe22f8bd976e6cac54ddd4fd964bf85f465dd6742a8e",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.botc.grimoire.experimental.dev",
+        "sig": "1dba7e8242a63c3a26ad49c09a4dd393",
+        "signer": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72",
+        "size": 46467242,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "com.botc.grimoire.experimental.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2,
+        "versionName": "1.1-dev"
+      }
+    ],
+    "com.example.adaptivetimers": [
+      {
+        "added": 1785449705000,
+        "apkName": "adaptive-timers.apk",
+        "hash": "827e0e1a85d96203a5486e0e40d12092c361d89a2c5894e2ea099e926f2c3af1",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "com.example.adaptivetimers",
+        "sig": "1dba7e8242a63c3a26ad49c09a4dd393",
+        "signer": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72",
+        "size": 16269,
+        "targetSdkVersion": 34,
+        "versionCode": 2,
+        "versionName": "1.1"
+      }
+    ],
+    "com.example.todoapp": [
+      {
+        "added": 1785449706000,
+        "apkName": "tasks.apk",
+        "hash": "7a56f72bc5d50351ea4f00603ec20e8897c45fc49bd481dc82500fb983e6f477",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "com.example.todoapp",
+        "sig": "1dba7e8242a63c3a26ad49c09a4dd393",
+        "signer": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72",
+        "size": 20477,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ],
+    "com.musicdownloader.app": [
+      {
+        "added": 1785449706000,
+        "apkName": "music-player.apk",
+        "hash": "9a42930c8ed202722c4d27cd3c29415f0bbbe38df28db44a46a54de4925c7d4f",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "packageName": "com.musicdownloader.app",
+        "sig": "1dba7e8242a63c3a26ad49c09a4dd393",
+        "signer": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72",
+        "size": 19572065,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.musicdownloader.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 9,
+        "versionName": "1.0.9"
+      }
+    ],
+    "com.simon.classtimer": [
+      {
+        "added": 1785449705000,
+        "apkName": "class-timer.apk",
+        "hash": "5786fce7c47a2f0b38c7cc25f5af18180bcb11d93485e54e71c977050a586184",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "com.simon.classtimer",
+        "sig": "1dba7e8242a63c3a26ad49c09a4dd393",
+        "signer": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72",
+        "size": 1469329,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.USE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "com.simon.classtimer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ],
+    "com.simon.dailynews": [
+      {
+        "added": 1785449706000,
+        "apkName": "daily-news.apk",
+        "hash": "3cd675f123b9faa81094f6872fdfb9a86f6faeef145479fb145e4ad6e0c68440",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "com.simon.dailynews",
+        "sig": "1dba7e8242a63c3a26ad49c09a4dd393",
+        "signer": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72",
+        "size": 16363783,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "com.simon.dailynews.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 3,
+        "versionName": "1.2"
+      }
+    ],
+    "com.simonapps.hub": [
+      {
+        "added": 1785449705000,
+        "apkName": "app-hub.apk",
+        "hash": "8bf723386a085b2c725803b01b22a491d0819c51d39bf8ae0d557636358ecbaf",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "com.simonapps.hub",
+        "sig": "57b4eb941c4d001bb72353eb13cacfc5",
+        "signer": "210d5b34217dd940f449246d803eea67caff1053497db989962b83a9ce14e514",
+        "size": 1515396,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "com.simonapps.hub.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "2.0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+	<repo icon="icon.png" name="Simon's Apps" pubkey="3082057030820358a003020102020900d093d7769305e5e2300d06092a864886f70d01010b050030653110300e060355040b1307462d44726f69643151304f06035504031348312e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e6970362e617270613020170d3236303733303232313334395a180f32303533313231353232313334395a30653110300e060355040b1307462d44726f69643151304f06035504031348312e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e302e6970362e6172706130820222300d06092a864886f70d01010105000382020f003082020a0282020100a2886c7f6ca88b1a2ed7228aa6dc0be8d72f6a01960e188e3418c95b53125eeb37602b7ac36e298c11922f53783fa271e67934f562d796074026fd9f604b671d9b90f6517dcdd742104e1e03472ab627a5657634febe3e4fc7d33ac8464c29d5a70e3f314062f35f4c7f1b1a22e5824159a209a4fc200d41ce380c94da2f06246b847c56bda5ffe2d486f77826fd1ddd111522af09cebc850bee32d1f003a9e3cc71fdfc982ec16c6908ded77844098c119f841fc21461b60168557c9445bf27868de1a0a5d116619b853b7108c11462201284543b6814e9dd74574a7ec4adcf77aa57a17f4c96cfb7e00ce9f0ec71a7f24dfcca4ce4ec26999a4f62d018d171c50b1a7bcd3df163899e9cc163234975803f3f22286108a54499e43132ade3d07b69cda0f5063df0b6d491b46854478f7336e7627ed1c7651cf70cccb274d6e5c16e6e170cc5f1b86c64c4e40374fd4983ec6d9401751770cfd0a747ec1e444af74a0adf3a7d74057b2d0451082901c4943666fd43f14af834ea28ba3b4e37f6a67dbc48a4e5fa6a78213001d1f7e44763e72bb04f6bb17ae474188363e224278b7b7fe949d6d59da05b9de39adebbff2a66bccac0a6712fd85ae743ca8c2d5a490e7239b51118ce3eeac8a9536c5d423aaa42ca55e5a55137df17ebd39d0a6302e988e732f38b4bc8948dcaac90b476de7833449fc16e383bbeeffe7f386a830203010001a321301f301d0603551d0e04160414e60972659bdd16049bcff6c9f89e4974bfd0126a300d06092a864886f70d01010b0500038202010071febc36194c0d257afc4c24d8c3e392940c25df1f24bcca59176a012e95f3f9a5be5680f6a4d7335f8f8dcc21b458aba775ebe531a80d39eef4d0a1545c14404980482e2c040c347a13f0faf47aee64063565ef08f5ee70baf3bec0228bd4ed279da6b8ba8bbe3caa3f9e8a8d6d782d7e096a4122a25508c3017406e63de5e6172b214821443fb576a41e808eb920f16325ba61824f281dac1d389b3e479c417339847e293000c72d4b9c4164673ffa87159bd04c361283db2b00850373e2a8a30285e3ba8937dd4d34af4aca39a31d1e7ecd75ae4e870ddb03bd3cdb9f00c1986e9c154a9669970d37d14b10fd912864b27613f078ea1eeb185286175535f0545098766000e212d512257c0ded5ed29708bc157153a7c500759d8a5885a45c1f5b0d5266e00cf4ece6e465d63b9a7c8f797410d7bd097968fc75cacbbe01461b9815e4eb8e748dea5aa5e6e37a073776ba82815058683ea6c1ca355569801b1e4400a6d8188e8690b4cc5cd77aff709bc0e259025d97c27ad88f289cdd0000e3c1935459a1e0a59bdef888cc22616e9d58a735130bd71a750b224eaba57ebe3feebcf0497554c00c699a2ca4dba940025726f96ecd43ca399fd7edc5c5546ef54314cfb0f95fa881f8218dc26baf6d1095c403365f791e190a55d0b6c52f75a414ef9eb89628a444a63a8b84e4738321e037e24aa80b5110bb7fdd7fc15f6b" timestamp="1785449760" url="https://simon-liesinger.github.io/fdroid/repo" version="20002">
+		<description>Homemade Android apps by Simon — installs and auto-updates through F-Droid, no Play Store needed.</description>
+	</repo>
+	<application id="com.example.adaptivetimers">
+		<id>com.example.adaptivetimers</id>
+		<added>2026-07-30</added>
+		<lastupdated>2026-07-30</lastupdated>
+		<name>Adaptive Timers</name>
+		<summary>Focus timer that ratchets session timing based on how you actually work.</summary>
+		<desc>Focus timer that ratchets session timing based on how you actually work.</desc>
+		<license>Unlicense</license>
+		<categories>Time</categories>
+		<category>Time</category>
+		<web>https://github.com/simon-liesinger/app-hub</web>
+		<source></source>
+		<tracker></tracker>
+		<author>Simon Liesinger</author>
+		<marketversion></marketversion>
+		<marketvercode>2</marketvercode>
+		<package>
+			<version>1.1</version>
+			<versioncode>2</versioncode>
+			<apkname>adaptive-timers.apk</apkname>
+			<hash type="sha256">827e0e1a85d96203a5486e0e40d12092c361d89a2c5894e2ea099e926f2c3af1</hash>
+			<size>16269</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-07-30</added>
+			<sig>1dba7e8242a63c3a26ad49c09a4dd393</sig>
+		</package>
+	</application>
+	<application id="com.adsbegone.app">
+		<id>com.adsbegone.app</id>
+		<added>2026-07-30</added>
+		<lastupdated>2026-07-30</lastupdated>
+		<name>Ads Begone</name>
+		<summary>On-device APK ad-patcher; installs a renamed, ad-free copy alongside the or…</summary>
+		<desc>On-device APK ad-patcher; installs a renamed, ad-free copy alongside the original.</desc>
+		<license>Unlicense</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/simon-liesinger/app-hub</web>
+		<source></source>
+		<tracker></tracker>
+		<author>Simon Liesinger</author>
+		<marketversion></marketversion>
+		<marketvercode>2</marketvercode>
+		<package>
+			<version>1.1</version>
+			<versioncode>2</versioncode>
+			<apkname>ads-begone.apk</apkname>
+			<hash type="sha256">822f30caaa86876a939bccc63292559cb58a78410931eea26af5d4f44084d2ec</hash>
+			<size>3966744</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-07-30</added>
+			<sig>1dba7e8242a63c3a26ad49c09a4dd393</sig>
+			<permissions>QUERY_ALL_PACKAGES,REQUEST_INSTALL_PACKAGES,com.adsbegone.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="com.simonapps.hub">
+		<id>com.simonapps.hub</id>
+		<added>2026-07-30</added>
+		<lastupdated>2026-07-30</lastupdated>
+		<name>App Hub</name>
+		<summary>Shows which of Simon's apps have updates and opens the download.</summary>
+		<desc>Shows which of Simon's apps have updates and opens the download.</desc>
+		<license>Unlicense</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/simon-liesinger/app-hub</web>
+		<source></source>
+		<tracker></tracker>
+		<author>Simon Liesinger</author>
+		<marketversion></marketversion>
+		<marketvercode>1</marketvercode>
+		<package>
+			<version>2.0</version>
+			<versioncode>1</versioncode>
+			<apkname>app-hub.apk</apkname>
+			<hash type="sha256">8bf723386a085b2c725803b01b22a491d0819c51d39bf8ae0d557636358ecbaf</hash>
+			<size>1515396</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-07-30</added>
+			<sig>57b4eb941c4d001bb72353eb13cacfc5</sig>
+			<permissions>INTERNET,com.simonapps.hub.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="com.simon.classtimer">
+		<id>com.simon.classtimer</id>
+		<added>2026-07-30</added>
+		<lastupdated>2026-07-30</lastupdated>
+		<name>Class Timer</name>
+		<summary>Class schedule reminders with home-screen widgets; notifies before each cla…</summary>
+		<desc>Class schedule reminders with home-screen widgets; notifies before each class even when closed.</desc>
+		<license>Unlicense</license>
+		<categories>Time</categories>
+		<category>Time</category>
+		<web>https://github.com/simon-liesinger/app-hub</web>
+		<source></source>
+		<tracker></tracker>
+		<author>Simon Liesinger</author>
+		<marketversion></marketversion>
+		<marketvercode>1</marketvercode>
+		<package>
+			<version>1.0</version>
+			<versioncode>1</versioncode>
+			<apkname>class-timer.apk</apkname>
+			<hash type="sha256">5786fce7c47a2f0b38c7cc25f5af18180bcb11d93485e54e71c977050a586184</hash>
+			<size>1469329</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-07-30</added>
+			<sig>1dba7e8242a63c3a26ad49c09a4dd393</sig>
+			<permissions>POST_NOTIFICATIONS,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,USE_EXACT_ALARM,VIBRATE,com.simon.classtimer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="com.simon.dailynews">
+		<id>com.simon.dailynews</id>
+		<added>2026-07-30</added>
+		<lastupdated>2026-07-30</lastupdated>
+		<name>Daily News</name>
+		<summary>User-defined website-change checks with an in-app visual element picker; su…</summary>
+		<desc>User-defined website-change checks with an in-app visual element picker; surfaces items only when they hit their condition today.</desc>
+		<license>Unlicense</license>
+		<categories>Internet</categories>
+		<category>Internet</category>
+		<web>https://github.com/simon-liesinger/app-hub</web>
+		<source></source>
+		<tracker></tracker>
+		<author>Simon Liesinger</author>
+		<marketversion></marketversion>
+		<marketvercode>3</marketvercode>
+		<package>
+			<version>1.2</version>
+			<versioncode>3</versioncode>
+			<apkname>daily-news.apk</apkname>
+			<hash type="sha256">3cd675f123b9faa81094f6872fdfb9a86f6faeef145479fb145e4ad6e0c68440</hash>
+			<size>16363783</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-07-30</added>
+			<sig>1dba7e8242a63c3a26ad49c09a4dd393</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,POST_NOTIFICATIONS,RECEIVE_BOOT_COMPLETED,WAKE_LOCK,com.simon.dailynews.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="com.botc.grimoire.experimental.dev">
+		<id>com.botc.grimoire.experimental.dev</id>
+		<added>2026-07-30</added>
+		<lastupdated>2026-07-30</lastupdated>
+		<name>Grimoire</name>
+		<summary>Blood on the Clocktower storyteller grimoire (experimental branch).</summary>
+		<desc>Blood on the Clocktower storyteller grimoire (experimental branch).</desc>
+		<license>Unlicense</license>
+		<categories>Games</categories>
+		<category>Games</category>
+		<web>https://github.com/simon-liesinger/app-hub</web>
+		<source></source>
+		<tracker></tracker>
+		<author>Simon Liesinger</author>
+		<marketversion></marketversion>
+		<marketvercode>2</marketvercode>
+		<package>
+			<version>1.1-dev</version>
+			<versioncode>2</versioncode>
+			<apkname>grimoire.apk</apkname>
+			<hash type="sha256">472f0f63d1fe5a0222aafe22f8bd976e6cac54ddd4fd964bf85f465dd6742a8e</hash>
+			<size>46467242</size>
+			<sdkver>26</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-07-30</added>
+			<sig>1dba7e8242a63c3a26ad49c09a4dd393</sig>
+			<permissions>INTERNET,com.botc.grimoire.experimental.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="com.musicdownloader.app">
+		<id>com.musicdownloader.app</id>
+		<added>2026-07-30</added>
+		<lastupdated>2026-07-30</lastupdated>
+		<name>Music Player</name>
+		<summary>Imports Spotify playlists, fetches audio, and plays them locally.</summary>
+		<desc>Imports Spotify playlists, fetches audio, and plays them locally.</desc>
+		<license>Unlicense</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web>https://github.com/simon-liesinger/app-hub</web>
+		<source></source>
+		<tracker></tracker>
+		<author>Simon Liesinger</author>
+		<marketversion></marketversion>
+		<marketvercode>9</marketvercode>
+		<package>
+			<version>1.0.9</version>
+			<versioncode>9</versioncode>
+			<apkname>music-player.apk</apkname>
+			<hash type="sha256">9a42930c8ed202722c4d27cd3c29415f0bbbe38df28db44a46a54de4925c7d4f</hash>
+			<size>19572065</size>
+			<sdkver>26</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-07-30</added>
+			<sig>1dba7e8242a63c3a26ad49c09a4dd393</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_MEDIA_PLAYBACK,INTERNET,POST_NOTIFICATIONS,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,REQUEST_INSTALL_PACKAGES,WAKE_LOCK,com.musicdownloader.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="com.example.todoapp">
+		<id>com.example.todoapp</id>
+		<added>2026-07-30</added>
+		<lastupdated>2026-07-30</lastupdated>
+		<name>Tasks</name>
+		<summary>Simple to-do / task list.</summary>
+		<desc>Simple to-do / task list.</desc>
+		<license>Unlicense</license>
+		<categories>Time</categories>
+		<category>Time</category>
+		<web>https://github.com/simon-liesinger/app-hub</web>
+		<source></source>
+		<tracker></tracker>
+		<author>Simon Liesinger</author>
+		<marketversion></marketversion>
+		<marketvercode>1</marketvercode>
+		<package>
+			<version>1.0</version>
+			<versioncode>1</versioncode>
+			<apkname>tasks.apk</apkname>
+			<hash type="sha256">7a56f72bc5d50351ea4f00603ec20e8897c45fc49bd481dc82500fb983e6f477</hash>
+			<size>20477</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-07-30</added>
+			<sig>1dba7e8242a63c3a26ad49c09a4dd393</sig>
+		</package>
+	</application>
+</fdroid>

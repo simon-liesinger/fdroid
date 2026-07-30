@@ -1,0 +1,166 @@
+{
+  "repo": {
+    "timestamp": 1785449760000,
+    "categories": {
+      "fdroid-repo": null,
+      "Games": {
+        "name": {
+          "en-US": "Games"
+        }
+      },
+      "Internet": {
+        "name": {
+          "en-US": "Internet"
+        }
+      },
+      "Multimedia": {
+        "name": {
+          "en-US": "Multimedia"
+        }
+      },
+      "System": {
+        "name": {
+          "en-US": "System"
+        }
+      },
+      "Time": {
+        "name": {
+          "en-US": "Time"
+        }
+      }
+    }
+  },
+  "packages": {
+    "com.adsbegone.app": {
+      "metadata": {
+        "categories": [
+          "System"
+        ],
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "summary": {
+          "en-US": "On-device APK ad-patcher; installs a renamed, ad-free copy alongside the or…"
+        },
+        "description": {
+          "en-US": "On-device APK ad-patcher; installs a renamed, ad-free copy alongside the original."
+        }
+      }
+    },
+    "com.botc.grimoire.experimental.dev": {
+      "metadata": {
+        "categories": [
+          "Games"
+        ],
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "name": {
+          "en-US": "Grimoire"
+        },
+        "summary": {
+          "en-US": "Blood on the Clocktower storyteller grimoire (experimental branch)."
+        },
+        "description": {
+          "en-US": "Blood on the Clocktower storyteller grimoire (experimental branch)."
+        }
+      }
+    },
+    "com.example.adaptivetimers": {
+      "metadata": {
+        "categories": [
+          "Time"
+        ],
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "summary": {
+          "en-US": "Focus timer that ratchets session timing based on how you actually work."
+        },
+        "description": {
+          "en-US": "Focus timer that ratchets session timing based on how you actually work."
+        }
+      }
+    },
+    "com.example.todoapp": {
+      "metadata": {
+        "categories": [
+          "Time"
+        ],
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "summary": {
+          "en-US": "Simple to-do / task list."
+        },
+        "description": {
+          "en-US": "Simple to-do / task list."
+        }
+      }
+    },
+    "com.musicdownloader.app": {
+      "metadata": {
+        "categories": [
+          "Multimedia"
+        ],
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "summary": {
+          "en-US": "Imports Spotify playlists, fetches audio, and plays them locally."
+        },
+        "description": {
+          "en-US": "Imports Spotify playlists, fetches audio, and plays them locally."
+        }
+      }
+    },
+    "com.simon.classtimer": {
+      "metadata": {
+        "categories": [
+          "Time"
+        ],
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "summary": {
+          "en-US": "Class schedule reminders with home-screen widgets; notifies before each cla…"
+        },
+        "description": {
+          "en-US": "Class schedule reminders with home-screen widgets; notifies before each class even when closed."
+        }
+      }
+    },
+    "com.simon.dailynews": {
+      "metadata": {
+        "categories": [
+          "Internet"
+        ],
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "summary": {
+          "en-US": "User-defined website-change checks with an in-app visual element picker; su…"
+        },
+        "description": {
+          "en-US": "User-defined website-change checks with an in-app visual element picker; surfaces items only when they hit their condition today."
+        }
+      }
+    },
+    "com.simonapps.hub": {
+      "metadata": {
+        "categories": [
+          "System"
+        ],
+        "license": "Unlicense",
+        "webSite": "https://github.com/simon-liesinger/app-hub",
+        "authorName": "Simon Liesinger",
+        "summary": {
+          "en-US": "Shows which of Simon's apps have updates and opens the download."
+        },
+        "description": {
+          "en-US": "Shows which of Simon's apps have updates and opens the download."
+        }
+      }
+    }
+  }
+}

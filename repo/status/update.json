@@ -1,0 +1,55 @@
+{
+  "antiFeatures": {},
+  "apksigner": "/Users/simon/android-sdk/build-tools/36.0.0/apksigner",
+  "archivePolicy0": [],
+  "commandLine": [
+    "/opt/homebrew/bin/fdroid update",
+    "--pretty"
+  ],
+  "disabled": [],
+  "endTimestamp": 1785449762393,
+  "failedBuilds": {},
+  "jarsigner": "/usr/bin/jarsigner",
+  "keytool": "/usr/bin/keytool",
+  "needsUpdate": [
+    "com.adsbegone.app",
+    "com.botc.grimoire.experimental.dev",
+    "com.example.adaptivetimers",
+    "com.example.todoapp",
+    "com.musicdownloader.app",
+    "com.simon.classtimer",
+    "com.simon.dailynews",
+    "com.simonapps.hub"
+  ],
+  "noPackages": [
+    "com.adsbegone.app",
+    "com.botc.grimoire.experimental.dev",
+    "com.example.adaptivetimers",
+    "com.example.todoapp",
+    "com.musicdownloader.app",
+    "com.simon.classtimer",
+    "com.simon.dailynews",
+    "com.simonapps.hub"
+  ],
+  "noUpdateCheck": [
+    "com.adsbegone.app",
+    "com.botc.grimoire.experimental.dev",
+    "com.example.adaptivetimers",
+    "com.example.todoapp",
+    "com.musicdownloader.app",
+    "com.simon.classtimer",
+    "com.simon.dailynews",
+    "com.simonapps.hub"
+  ],
+  "stages": {
+    "delete_disabled_builds": 1785449760454,
+    "index.make repo": 1785449760455,
+    "prepare_apps repo": 1785449760455,
+    "process_apks": 1785449760454,
+    "read_added_date_from_all_apks": 1785449760455,
+    "remove_apks": 1785449760455,
+    "scan_repo_files": 1785449760455
+  },
+  "startTimestamp": 1785413760000,
+  "subcommand": "update"
+}
