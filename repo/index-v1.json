@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786189566000,
+    "timestamp": 1786190387000,
     "version": 20002,
     "name": "Simon's Apps",
     "icon": "icon.png",
@@ -117,7 +117,7 @@
       "categories": [
         "Multimedia"
       ],
-      "suggestedVersionCode": "12",
+      "suggestedVersionCode": "13",
       "description": "Imports Spotify playlists, fetches audio, and plays them locally.",
       "license": "Unlicense",
       "name": "Music Player",
@@ -252,13 +252,13 @@
       {
         "added": 1785449706000,
         "apkName": "music-player.apk",
-        "hash": "63d06504810f74a244c4b5fc43225ae693ef1aad6e1912e4cc0e815f1abe56a3",
+        "hash": "09ddcabd3531ca360bee1be3491625485f7ed8b04b0e217cd80f7a2a017d070d",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "packageName": "com.musicdownloader.app",
         "sig": "1dba7e8242a63c3a26ad49c09a4dd393",
         "signer": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72",
-        "size": 19554062,
+        "size": 19554710,
         "targetSdkVersion": 34,
         "uses-permission": [
           [
@@ -294,8 +294,8 @@
             null
           ]
         ],
-        "versionCode": 12,
-        "versionName": "1.0.12"
+        "versionCode": 13,
+        "versionName": "1.0.13"
       }
     ],
     "com.simon.classtimer": [
