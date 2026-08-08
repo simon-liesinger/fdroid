@@ -2,6 +2,20 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <body style="font-family:system-ui;max-width:640px;margin:3rem auto;padding:0 1rem;line-height:1.5">
 <script src="https://keepandroidopen.org/banner.js"></script>
+<script>
+// Make the whole banner bar clickable, not just the message text.
+(function () {
+  var b = document.querySelector('.kao-banner');
+  if (!b) return;
+  var a = b.querySelector('a');
+  if (!a) return;
+  b.style.cursor = 'pointer';
+  b.addEventListener('click', function (e) {
+    if (e.target.closest('a, .kao-banner-close')) return;
+    window.open(a.href, '_blank', 'noopener');
+  });
+})();
+</script>
 <h1>Simon's Apps</h1>
 <p>An F-Droid repository of Simon's homemade Android apps.</p>
 <p>In the <b>F-Droid</b> app: Settings → Repositories → ➕ and add:</p>
