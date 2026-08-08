@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786152181000,
+    "timestamp": 1786189566000,
     "categories": {
       "fdroid-repo": null,
       "Games": {
@@ -151,16 +151,16 @@
       },
       "versions": {
         "9a42930c8ed202722c4d27cd3c29415f0bbbe38df28db44a46a54de4925c7d4f": null,
-        "cc79a5da991226737273664e7cb4f4b787cbcad5be4ad9b9bd0ad50582d7e6f5": {
+        "63d06504810f74a244c4b5fc43225ae693ef1aad6e1912e4cc0e815f1abe56a3": {
           "added": 1785449706000,
           "file": {
             "name": "/music-player.apk",
-            "sha256": "cc79a5da991226737273664e7cb4f4b787cbcad5be4ad9b9bd0ad50582d7e6f5",
-            "size": 19550386
+            "sha256": "63d06504810f74a244c4b5fc43225ae693ef1aad6e1912e4cc0e815f1abe56a3",
+            "size": 19554062
           },
           "manifest": {
-            "versionName": "1.0.11",
-            "versionCode": 11,
+            "versionName": "1.0.12",
+            "versionCode": 12,
             "usesSdk": {
               "minSdkVersion": 26,
               "targetSdkVersion": 34
