@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786229238000,
+    "timestamp": 1786239816000,
     "version": 20002,
     "name": "Simon's Apps",
     "icon": "icon.png",
@@ -17,7 +17,7 @@
       "categories": [
         "Time"
       ],
-      "suggestedVersionCode": "2",
+      "suggestedVersionCode": "3",
       "description": "Focus timer that ratchets session timing based on how you actually work.",
       "license": "Unlicense",
       "name": "Adaptive Timers",
@@ -37,7 +37,7 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionCode": "2",
+      "suggestedVersionCode": "3",
       "description": "On-device APK ad-patcher; installs a renamed, ad-free copy alongside the original.",
       "license": "Unlicense",
       "name": "Ads Begone",
@@ -57,7 +57,7 @@
       "categories": [
         "Time"
       ],
-      "suggestedVersionCode": "1",
+      "suggestedVersionCode": "2",
       "description": "Class schedule reminders with home-screen widgets; notifies before each class even when closed.",
       "license": "Unlicense",
       "name": "Class Timer",
@@ -77,7 +77,7 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionCode": "3",
+      "suggestedVersionCode": "4",
       "description": "User-defined website-change checks with an in-app visual element picker; surfaces items only when they hit their condition today.",
       "license": "Unlicense",
       "name": "Daily News",
@@ -97,7 +97,7 @@
       "categories": [
         "Games"
       ],
-      "suggestedVersionCode": "2",
+      "suggestedVersionCode": "3",
       "description": "Blood on the Clocktower storyteller grimoire (experimental branch).",
       "license": "Unlicense",
       "name": "Grimoire",
@@ -117,7 +117,7 @@
       "categories": [
         "Multimedia"
       ],
-      "suggestedVersionCode": "14",
+      "suggestedVersionCode": "15",
       "description": "Imports Spotify playlists, fetches audio, and plays them locally.",
       "license": "Unlicense",
       "name": "Music Player",
@@ -137,7 +137,7 @@
       "categories": [
         "Time"
       ],
-      "suggestedVersionCode": "1",
+      "suggestedVersionCode": "2",
       "description": "Simple to-do / task list.",
       "license": "Unlicense",
       "name": "Tasks",
@@ -158,13 +158,13 @@
       {
         "added": 1785449705000,
         "apkName": "ads-begone.apk",
-        "hash": "822f30caaa86876a939bccc63292559cb58a78410931eea26af5d4f44084d2ec",
+        "hash": "4fe3dc58ab6e4a21252d4c9ccc63a5fb3a2b43898cfb896ef9326a90b6da4441",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "packageName": "com.adsbegone.app",
         "sig": "1dba7e8242a63c3a26ad49c09a4dd393",
         "signer": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72",
-        "size": 3966744,
+        "size": 5611430,
         "targetSdkVersion": 34,
         "uses-permission": [
           [
@@ -180,15 +180,15 @@
             null
           ]
         ],
-        "versionCode": 2,
-        "versionName": "1.1"
+        "versionCode": 3,
+        "versionName": "1.2"
       }
     ],
     "com.botc.grimoire.experimental.dev": [
       {
         "added": 1785449706000,
         "apkName": "grimoire.apk",
-        "hash": "472f0f63d1fe5a0222aafe22f8bd976e6cac54ddd4fd964bf85f465dd6742a8e",
+        "hash": "bdf857f3a81dd67c47a995a1cd9874cf38d35f4b6b2b54a4ce195ae9a0a92806",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -200,7 +200,7 @@
         "packageName": "com.botc.grimoire.experimental.dev",
         "sig": "1dba7e8242a63c3a26ad49c09a4dd393",
         "signer": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72",
-        "size": 46467242,
+        "size": 47445009,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -212,53 +212,53 @@
             null
           ]
         ],
-        "versionCode": 2,
-        "versionName": "1.1-dev"
+        "versionCode": 3,
+        "versionName": "1.2-dev"
       }
     ],
     "com.example.adaptivetimers": [
       {
         "added": 1785449705000,
         "apkName": "adaptive-timers.apk",
-        "hash": "827e0e1a85d96203a5486e0e40d12092c361d89a2c5894e2ea099e926f2c3af1",
+        "hash": "ce7a2420d60e444d7a49ad9e150846fee361bdf4d3513fe9ae89dc6b2f0ff4ce",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "packageName": "com.example.adaptivetimers",
         "sig": "1dba7e8242a63c3a26ad49c09a4dd393",
         "signer": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72",
-        "size": 16269,
+        "size": 2956135,
         "targetSdkVersion": 34,
-        "versionCode": 2,
-        "versionName": "1.1"
+        "versionCode": 3,
+        "versionName": "1.2"
       }
     ],
     "com.example.todoapp": [
       {
         "added": 1785449706000,
         "apkName": "tasks.apk",
-        "hash": "7a56f72bc5d50351ea4f00603ec20e8897c45fc49bd481dc82500fb983e6f477",
+        "hash": "afbfc8ec4034bec43bac02a699d26c32daac59927ba5e7e0c615d727bc3b5cec",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "packageName": "com.example.todoapp",
         "sig": "1dba7e8242a63c3a26ad49c09a4dd393",
         "signer": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72",
-        "size": 20477,
+        "size": 2960207,
         "targetSdkVersion": 34,
-        "versionCode": 1,
-        "versionName": "1.0"
+        "versionCode": 2,
+        "versionName": "1.1"
       }
     ],
     "com.musicdownloader.app": [
       {
         "added": 1785449706000,
         "apkName": "music-player.apk",
-        "hash": "00cb2f39afd7f87fcf0c932016022963a0fe620ac5c50920b892150b3fff84b7",
+        "hash": "1058fe85863b53199d3cd146718287e7ccac6aa2275e4e58e6cf73cdd97dbc14",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "packageName": "com.musicdownloader.app",
         "sig": "1dba7e8242a63c3a26ad49c09a4dd393",
         "signer": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72",
-        "size": 19556322,
+        "size": 20547410,
         "targetSdkVersion": 34,
         "uses-permission": [
           [
@@ -294,21 +294,21 @@
             null
           ]
         ],
-        "versionCode": 14,
-        "versionName": "1.0.14"
+        "versionCode": 15,
+        "versionName": "1.0.15"
       }
     ],
     "com.simon.classtimer": [
       {
         "added": 1785449705000,
         "apkName": "class-timer.apk",
-        "hash": "5786fce7c47a2f0b38c7cc25f5af18180bcb11d93485e54e71c977050a586184",
+        "hash": "468ba981a5354c1b831cc92da5bd676c174aba237c9e649557d8d044b98a9f73",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "packageName": "com.simon.classtimer",
         "sig": "1dba7e8242a63c3a26ad49c09a4dd393",
         "signer": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72",
-        "size": 1469329,
+        "size": 3139054,
         "targetSdkVersion": 34,
         "uses-permission": [
           [
@@ -336,21 +336,21 @@
             null
           ]
         ],
-        "versionCode": 1,
-        "versionName": "1.0"
+        "versionCode": 2,
+        "versionName": "1.1"
       }
     ],
     "com.simon.dailynews": [
       {
         "added": 1785449706000,
         "apkName": "daily-news.apk",
-        "hash": "3cd675f123b9faa81094f6872fdfb9a86f6faeef145479fb145e4ad6e0c68440",
+        "hash": "85be882b05cc0347dd15e2666127ea66880c5aced73f7dc831bda7982c8a1b62",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "packageName": "com.simon.dailynews",
         "sig": "1dba7e8242a63c3a26ad49c09a4dd393",
         "signer": "eb4dd413b076b87f44cbb08a69de44f8ff378b01866cad68a7dc7c0862308c72",
-        "size": 16363783,
+        "size": 17370400,
         "targetSdkVersion": 34,
         "uses-permission": [
           [
@@ -382,8 +382,8 @@
             null
           ]
         ],
-        "versionCode": 3,
-        "versionName": "1.2"
+        "versionCode": 4,
+        "versionName": "1.3"
       }
     ]
   }
