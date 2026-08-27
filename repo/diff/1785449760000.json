@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786239816000
+    "timestamp": 1787815945000
   },
   "packages": {
     "com.simonapps.hub": null,
@@ -181,16 +181,22 @@
       },
       "versions": {
         "9a42930c8ed202722c4d27cd3c29415f0bbbe38df28db44a46a54de4925c7d4f": null,
-        "1058fe85863b53199d3cd146718287e7ccac6aa2275e4e58e6cf73cdd97dbc14": {
+        "213320329f4e1cd53b2ad37f9d687f1a25ae831d802144777ff9227d22455cca": {
           "added": 1785449706000,
           "file": {
             "name": "/music-player.apk",
-            "sha256": "1058fe85863b53199d3cd146718287e7ccac6aa2275e4e58e6cf73cdd97dbc14",
-            "size": 20547410
+            "sha256": "213320329f4e1cd53b2ad37f9d687f1a25ae831d802144777ff9227d22455cca",
+            "size": 25407988
           },
           "manifest": {
-            "versionName": "1.0.15",
-            "versionCode": 15,
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0.16",
+            "versionCode": 16,
             "usesSdk": {
               "minSdkVersion": 26,
               "targetSdkVersion": 34
